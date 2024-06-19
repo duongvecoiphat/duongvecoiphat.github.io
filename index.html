@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Video Browser</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
 </head>
+
 <body>
-   Hello 
+    <div id="video-player">
+        <!-- Video player will be dynamically inserted here -->
+    </div>
+    <ul id="video-list">
+        <!-- List of video thumbnails will be dynamically inserted here -->
+    </ul>
+    <script src="app.js"></script>
 </body>
+
 </html>
